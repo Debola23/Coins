@@ -1,0 +1,49 @@
+.hero{
+    text-align: center;
+    margin-top: 4rem;
+}
+ h1{
+    font-size: 5.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+.p{
+    font-size: 5.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    margin-top: 8px;
+}
+.pp{
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    margin-top: 2rem;
+}
+.btn{
+    margin-top: 20px;
+    padding: 22px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .hInfo h1 {
+        font-size: 3.4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+    }
+    .p{
+        font-size: 3.4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+    }
+    .pp{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+}

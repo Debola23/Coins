@@ -1,0 +1,20 @@
+.chart {
+    height: 500px;
+}
+.c2m{
+    display: none;
+}
+@media (max-width: 768px) {
+    .chart {
+        display: none;
+    }
+    .c2m{
+        display: inline;
+    }
+}
+@media (max-width: 480px) {
+    .c2m {
+      display: inline;
+      width: 80%;
+    }
+  }

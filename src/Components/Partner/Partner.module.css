@@ -1,0 +1,74 @@
+.partner{
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 4.6rem;
+  font-weight: 600;
+}
+#brandimg{
+    height: 64px;
+    width: 80px;
+}
+#row{
+    gap: 2rem;
+  justify-content: space-around;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  cursor: pointer;
+}
+.background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+.container{
+    border-radius: 10px;
+    max-width: 1198px;
+    width: 100%;
+    padding: 14px;
+    background: radial-gradient(circle,#3d563d,#0bb60b );
+    z-index: 2;
+}
+.bigpic{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.smallpic{
+    display: none;
+}
+
+
+
+@media (max-width: 1000px) {
+    .container{
+        border-radius: 10px;
+        width: 100%;
+        padding: 14px;
+        z-index: 2;
+        background: radial-gradient(circle,#3d563d,#0bb60b);
+      }
+  
+}
+@media (max-width: 768px) {
+    .bigpic{
+        display: none;
+    }
+    .smallpic{
+      display: flex;
+      height: 502px;
+      width: 232px;
+    }
+    .container{
+    max-width: 244px;
+    min-width: 244px;
+    max-height: 514px;
+    padding: 6px;
+    }
+  }

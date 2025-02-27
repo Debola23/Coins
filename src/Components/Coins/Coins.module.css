@@ -1,0 +1,146 @@
+.coins{
+    background: radial-gradient(circle, #00ff00, #003300);
+}
+
+.h11{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+    color: white;
+    font-size: 3.2rem;
+}
+.search{
+    width: 272px;
+    height: 36px;
+    border-radius: 8px;
+    background: white;
+    color: black;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+.coinBox{
+    margin-top: 4rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 40px;
+    font-size: 16px;
+}
+.coinBox div{
+    text-align: center;
+}
+.cHead{
+    color: #ffc107;
+}
+table{
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+thead{
+    color: #ffc107;
+    background-color: #003300;
+    text-align: center;
+}
+thead tr th{
+    padding: 7px;
+}
+
+.coinLogo{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 18%;
+    gap: 22px;
+    text-align: center;
+    align-items: baseline;
+    padding: 10px;
+}
+.coinLogo img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.tableContainer {
+    width: 100%;
+    overflow-x: auto; 
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .table thead {
+    display: table-header-group;
+    background-color:  #003300;;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px 12px;
+    border: 1px solid  #003300;
+  }
+  
+  @media (max-width: 1240px) {
+    .table {
+      font-size: 14px; 
+    }
+  
+    .table th,
+    .table td {
+      padding: 6px 6px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .tableContainer {
+      overflow-x: auto;
+    }
+  
+    .table,
+    .table thead,
+    .table tbody,
+    .table th,
+    .table td,
+    .table tr {
+      display: block;
+    }
+  
+    .table thead {
+      display: none;
+    }
+  
+    .table tr {
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 8px;
+    }
+  
+    .table td {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 8px;
+      font-size: 14px;
+      border: none;
+    }
+  
+    .table td:before {
+      content: attr(data-label); 
+      font-weight: bold;
+      margin-right: 8px;
+    }
+    .coinLogo img {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        left: -44px;
+    }
+  }

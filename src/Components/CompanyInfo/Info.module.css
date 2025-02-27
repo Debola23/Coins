@@ -1,0 +1,124 @@
+.info{
+    text-align: center;
+    margin-top: 8rem;
+}
+.infoP{
+    margin-top: 3rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.infoA{
+    text-decoration: none;
+    color: #ffc107;
+}
+.sec{
+    text-align: center;
+    margin-top: 8rem;
+}
+.sec ul{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 3rem;
+}
+.secimg{
+    height: 8rem;
+    width: 8rem;
+}
+.secD{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.year{
+    margin-top: 3rem;
+}
+.year h1{
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 2.5rem;
+}
+.outro{
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+}
+.outro span{
+    color: #ffc107;
+}
+.btn{
+    margin-top: 20px;
+    padding: 22px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.chartHolder{
+    display: flex;
+    justify-content: center;
+}
+.cont{
+    border-radius: 10px;
+    max-width: 1198px;
+    width: 100%;
+    padding: 14px;
+    background: radial-gradient(circle,#3d563d,#0bb60b );
+    z-index: 2
+}
+.chart1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+@media (max-width: 1080px) {
+    .cont{
+        border-radius: 10px;
+        max-width: 1198px;
+        width: 84%;
+        padding: 14px;
+        background: radial-gradient(circle,#3d563d,#0bb60b );
+        z-index: 2;
+      }
+}
+
+@media (max-width: 768px) {
+    .sec ul{
+        display: flex;
+        text-decoration: none;
+        justify-content: space-evenly;
+        list-style: none;
+        line-height: 3rem;
+        margin-top: 3rem;
+        flex-direction: column;
+        gap: 4rem;
+        padding: 0px;
+    }
+    .info h1{
+        font-size: 3.4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+    }
+    .infoP{
+        margin-top: 2rem;
+        font-weight: 600;
+        font-size: 1rem
+    }
+    .year h1{
+        font-size: 3.4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+    }
+    .sec h1{
+        font-size: 3.4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+    }
+
+}
